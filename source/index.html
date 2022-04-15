@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img src="img/logo.svg" width="185" height="96" alt="SEDONA">
+    </a>
+    <nav class="main-nav"><button class="main-nav__toggle"
+    type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main nav__wrapper">
+        <ul class="main nav__list site-list">
+          <li class="site-list__item site-list__item--current">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">
+              Фото и видео
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              HTML Academy
+            </a>
+          </li>
+        </ul>
+        <div class="main nav__list user-list">
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main-container">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+    <h1 class="title__wrapper">WELCOME<br> &mdash; <i>to the gorgeous &mdash;</i><br> SEDONA<br><i>"Because the Grand<br> Canyon sucks"</i> </h1>
 
-  </body>
+    <section class="advantages"
+      <div class="advantages__wrapper">
+        <header class="advantages__header">
+          <h2 class="visually-hidden">
+            Преимущества Седоны
+          </h2>
+          <p class="advantages__slogan">
+            Седона - небольшой<br> городок в Аризоне,<br> заслуживающий большего!
+          </p>
+          <p class="advantages__intro">
+          Рассмотрим 5 причин, по которым<br> Седона круче, чем Гранд Каньон!
+          </p>
+        </header>
+        <dl class="advantages__list">
+          <div class="advantages__item">
+            <dt class="advantages__number">Настоящий городок<br>— №1 —<br>Седона не аттракцион для<br> туристов, там течет своя<br> жизнь</dt>
+          </div>
+        </dl>
+      <div/>
+    <section class="offers">
+      <div class="offers-wrapper">
+        <h2 class="visually-hidden">Предложения</h2>
+        <ul class="offers__list">
+          <li class="offers__item offers__item--housing">
+            <h3 class="offers__title">Жилье</h3>
+            <p class="offers__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="offers__item offers__item--meal">
+            <h3 class="offers__title">Еда</h3>
+            <p class="offers__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="offers__item offers__item--souvenirs">
+            <h3 class="offers__title">Сувениры</h3>
+            <p class="offers__description">Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+        <dl class="advantages__list">
+          <div class="advantages__item">
+            <dt class="advantages__number">Там есть мост Дьявола <br>— №2 —<br>Да, по нему можно пройти! Если вы<br> осмелитесь, конечно</dt>
+          </div>
+        </dl>
+        <dl class="advantages__list">
+          <div class="advantages__item">
+            <dt class="advantages__number">Небольшая площадь<br>— №3 —<br>Все интересные места находятся<br> очень близко</dt>
+          </div>
+          <div class="advantages__item">
+            <dt class="advantages__number">Красивая дорога<br>— №4 —<br>Ехать в Седону из Лас-Вегаса совсем не скучно!</dt>
+          </div>
+          <div class="advantages__item">
+            <dt class="advantages__number">Мало туристов<br>— №5 —<br>Большинство едет в гранд каньон<br>и толпится там</dt>
+          </div>
+        </dl>
+    <section class="services">
+      <div class="services__wrapper">
+        <h2 class="services__tittle">Заинтересовались?</h2>
+          <p class="services__intro">
+            Укажите предполагаемые даты<br>поездки, и мы покажем вам лучшие предложения<br> гостиниц в Седоне
+          </p>
+        <button class="services__blue button">Найти гостиницу</button>
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2314080.7249562186!2d-112.05192228114312!3d35.05963141851911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1649274809524!5m2!1sru!2sru"  width="320" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">alt="карта Седоны"</iframe>
+        </p>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-footer__wrapper">
+        <div class="main-footer__contacts contacts">
+          <b class="contacts__title">#visitSedona</b>
+        </div>
+        <div class="main-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+            </li>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+          </ul>
+        </div>
+        <div class="main-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
 </html>
